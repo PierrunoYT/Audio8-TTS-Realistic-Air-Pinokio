@@ -1,0 +1,13 @@
+transformers>=4.57.0,<5
+safetensors>=0.4
+soundfile>=0.12
+numpy
+huggingface_hub
+hf_xet
+gradio>=5.50,<7
+# torch.js installs torch with --no-deps; these are its remaining runtime deps.
+sympy
+networkx
+jinja2
+filelock
+fsspec
